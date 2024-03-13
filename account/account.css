@@ -1,0 +1,386 @@
+/* Header */
+*{
+    margin: 0;
+    padding: 0;
+     font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f6f6f6;
+    overflow-x: hidden;
+}
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo-container {
+    flex: 1;
+    margin-bottom: 5px;
+}
+
+.logo {
+    max-width: 117px;
+    height: auto;
+    margin-left: 27px;
+    margin-top: 10px;
+
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.profile-img {
+    width: 32px;
+    height: 33px;
+    border-radius: 20%;
+    margin-right: 55px;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+    z-index: 1;
+    min-width: 200px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-info {
+    margin-left: 10px;
+}
+
+.profile-info h3{
+    margin: 0;
+    font-size: 14px;
+    margin-right: 40px;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 5px 0;
+    color: #fff;
+    text-decoration: none;
+}
+.dropdown-content a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.dropdown-content hr {
+    border-top: 1px solid #333;
+    margin: 10px 0;
+}
+
+.line{
+    width: 92.3%;
+    size:2;
+    color: #666;
+    margin-top:20px;
+    margin-bottom: 18px;
+}
+.container{
+    margin-left: 117px;
+    margin-top: 95px;
+}
+.account-top{
+   padding: 10px;
+   margin-bottom: 20px;
+}
+.account-heading {
+    display: inline-block;
+    font-size: 35px;
+    color: #333;
+    font-weight: 100;
+}
+.memnership{
+    color: #888;
+    font-weight: 100;
+}
+.kua{
+    display: inline-block;
+    padding-right: 10px;
+    width: 30px;
+    padding-top: 10px;
+}
+ .member-since {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-left: 25px;
+    font-weight:bold;
+    margin-top: -10px;
+    
+
+}
+.email{
+    margin-left: 50px;
+    padding: 8px;
+    font-weight: bold;
+}
+.change-account{
+    margin-left:388px;
+    color: #007bff;
+    text-decoration: none;
+}
+.change-account:hover,
+.change:hover,
+.phone-change:hover,
+.bill:hover {
+    text-decoration: underline;
+}
+.pass{
+    margin-left: 274px;
+    padding: 8px;
+    color: #888;
+}
+.change{
+    margin-left: 507px;
+    color: #007bff;
+    text-decoration: none;
+}
+.phone{
+    margin-left: 274px;
+    padding: 8px;
+    color:#888;
+}
+.phone-change{
+    margin-left: 445px;
+    color: #007bff;
+    text-decoration: none;
+
+}
+.line1{
+    width: 68%;
+    size:1;
+    border-width: 0.3px;
+    margin-bottom: 18px;
+    border-color: rgba(0, 0, 0, 0.03);
+    margin-left: 279px;
+}
+.bill{
+    margin-left: 476px;
+    color: #007bff;
+    text-decoration: none;
+}
+.billed{
+    margin-left: 280px;
+    font-weight: bold;
+}
+.billed1{
+    margin-left: 280px;
+    margin-top: 20px;
+}
+.line2{
+    width: 92.3%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.plan-detailss *{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.plan-detailss{
+    white-space: nowrap;
+}
+.mobile{
+    margin-left: 123px;
+    font-weight: bold;
+}
+.change-plan{
+    margin-left: 608px;
+    color: #007bff;
+    text-decoration: none;
+}.control{
+margin-left: 50px;
+}
+.Manage-access{
+    margin-left: 233px;
+    color: #007bff;
+    text-decoration: none;
+}.sign-out{
+    display: block;
+    margin-left: 40px;
+}
+.sign-out, .Download-your {
+    display: block; 
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 13px;
+}
+.sign-out{
+    margin-left: 895px;
+}
+.Download-your{
+    margin-left: 796px;
+}
+.line3{
+    width: 92.3%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.user-info {
+    align-items: center;
+    margin-left: 50px;
+}
+
+.icon12 {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.user-details {
+    font-family: Arial, sans-serif; 
+
+}
+
+.karn {
+    margin: 0;
+    font-size: 18px; 
+    color: #333;
+    margin-top: 8px;
+    font-weight: bold;
+}
+.karn,.Majority{
+    display: block;
+}
+
+.Majority {
+    margin: 5px 0; 
+    font-size: 14px; 
+    color: #666; 
+}
+.setting1 h3,
+.setting1 .off {
+    display: inline-block;
+}
+.off{
+    margin-left: 165px;
+    text-decoration: none;
+    color: #007bff;
+    padding: 8px;
+}
+.off1t,.off2{
+    display: block;
+    margin-left: 262px;
+    text-decoration: none;
+    color: #007bff;
+    padding: 10px;
+}
+ .line4{
+    size: 1;
+    margin-top: 65px;
+    border-color: rgba(0, 0, 0, 0.03);
+    width: 100%;
+}
+
+
+
+/* Footer styles */
+footer {
+    color: #fff;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    
+    
+
+}
+.footer-header{
+    margin-bottom: 20px;
+
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.footer-header a {
+    color: #757575;
+    text-decoration: none;
+    
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10px;
+
+}
+.footer-links li {
+    margin-bottom: 10px;
+}
+.footer-links li a {
+    color: #757575;
+    text-decoration: none;
+    font-size: 80%;
+
+}
+.footer-header,.footer-links li a:hover{
+    text-decoration: underline;
+}
+
+.service-code{
+    border: 1px solid #757575;
+    padding: 10px; 
+    text-decoration: none;
+    color: #757575;
+    bottom: 0;
+    margin-left: 310px;
+    margin-bottom: 20px;
+}
+
+
+.service-code a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.service-code a:hover {
+    color: #444;
+}
+.owner{
+    color: #333;
+    bottom: 0;
+    margin-top: 40px;
+}
+.profile-img1,.profile-info{
+    display: inline-block;
+}
+.profile-img1{
+    width: 35px;
+    height: 35px;
+    border-radius: 10%;
+}

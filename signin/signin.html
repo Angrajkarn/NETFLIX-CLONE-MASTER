@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Netflix</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="head">
+        <img src="logo.png" class="logo" alt="Netflix Logo">
+    </div>
+    <div class="overlay1"></div>
+    <div class="container">
+        <div class="overlay"></div>
+        <div class="signin-container">
+            <h1>Sign In</h1> 
+            <form class="signin-form" action="MockDatabase.php">
+                <input type="email" name="email" placeholder="Email or phone number" required>
+                <div id="email-validation" class="validation-message"></div>
+                <input type="password" name="password" placeholder="Password" required>
+                 <div id="password-validation" class="validation-message"></div>
+                <button type="submit">Sign In</button>
+            </form>
+            <form>
+                <div class="check">
+                    <input type="checkbox">Remember me
+                    <a href="#" class="need">Need help?</a>
+                    <p>New to Netflix?<a href="#" style="color:white; text-decoration:none" class="k">Sign up now</a></p>
+                    <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href="#" class="learn">Learn more</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>Questions? Call <a href="tel:+000-800-919-1694" style="text-decoration: none; color:#787878">000-800-919-1694</a></p>
+        <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help Centre</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Cookie Preferences</a></li>
+            <li><a href="#">Corporate Information</a></li>
+        </ul>
+    </footer>
+
+    <script src="signin.js"></script>
+</body>
+</html>
